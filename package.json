@@ -21,6 +21,7 @@
     "@vueuse/motion": "^2.2.3",
     "@vueuse/nuxt": "^11.0.1",
     "axios": "^1.7.5",
+    "netlify-cli": "^17.34.2",
     "nuxt": "link:@vueuse/motion/nuxt",
     "pinia": "^2.2.2",
     "vue": "latest"
