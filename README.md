@@ -4,14 +4,14 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## Live Demo
 
-You can see the live demo on  <a href="https://mv-tm.netlify.app"><strong>➥ Live Demo</strong></a>
+You can see the live demo on  <a href="https://bq-ng-music.netlify.app"><strong>➥ Live Demo</strong></a>
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-pnpm install
+yarn install
 ```
 
 ## Development Server
@@ -19,7 +19,7 @@ pnpm install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-pnpm dev
+yarn dev
 ```
 
 ## Production
@@ -27,13 +27,13 @@ pnpm dev
 Build the application for production:
 
 ```bash
-pnpm build
+yarn build
 ```
 
 Locally preview production build:
 
 ```bash
-pnpm preview
+yarn preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
