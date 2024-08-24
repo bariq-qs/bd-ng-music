@@ -1,0 +1,16 @@
+.layout-default {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  >main {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .layout-default {
+    >main {
+      width: 100vw;
+    }
+  }
+}
