@@ -16,7 +16,7 @@
         </CardMusic>
       </div>
       <div class="flex justify-center mb-5">
-        <ButtonLoadMore :is-loading="isLoading" @click="getMusicList" v-if="musicList.length > 0" />
+        <ButtonLoadMore :is-loading="isLoading" @click="getMusicList" v-if="musicList.length > 0 || isLoading" />
       </div>
     </div>
     <ModalSearch v-model:show="isActive" />
