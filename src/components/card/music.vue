@@ -25,8 +25,8 @@
         </svg>
       </div>
       <div class="flex flex-col animate-pulse w-full">
-        <div class="h-2 bg-slate-200 rounded-full w-full mb-2"></div>
-        <div class="h-2 bg-slate-200 rounded-full w-1/2"></div>
+        <div class="h-2 bg-slate-200 rounded-full w-1/2 mb-2"></div>
+        <div class="h-2 bg-slate-200 rounded-full w-full"></div>
         <div class="mt-auto flex flex-wrap justify-between">
           <div class="h-3 bg-slate-200 rounded-full w-[80px]"></div>
           <div class="h-3 bg-slate-200 rounded-full w-[50px]"></div>
