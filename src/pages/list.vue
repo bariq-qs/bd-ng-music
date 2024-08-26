@@ -12,7 +12,7 @@
         <p class="text-center text-sm text-[#334155] mx-auto">Your Search Not Found</p>
       </div>
       <div v-for="(row, rowIdx) in musicList" :key="rowIdx" class="mb-4" v-motion-pop-visible-once ref="refCardMusic">
-        <CardMusic :row="row">
+        <CardMusic :row="row" :is-loading="isLoading">
         </CardMusic>
       </div>
       <div class="flex justify-center mb-5">
